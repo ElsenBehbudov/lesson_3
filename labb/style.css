@@ -1,0 +1,18 @@
+div{
+    background-color: red;
+    width: 300px;
+    height: 300px;
+    border: 3 px solid;
+    transition: width 2s;
+    animation-name: example;
+    animation-duration: 4s;
+    position: absolute;
+    animation-iteration-count: infinite;
+    
+    
+}
+@keyframes example{
+    from{border-radius: 0%;}
+    to{border-radius: 100%;
+    transform: rotate(30deg);}
+}
